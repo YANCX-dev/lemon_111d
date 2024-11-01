@@ -8,7 +8,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <?php  include './pages/header.php';?>
+<body class="b-page">
+
+    <div class="b-page__header">
+        <?php  include './pages/header.php';?>
+    </div>
+
+    <div class="b-page__line">
+        <?php  include './pages/main.php';?>
+    </div>
+
+    <div class="b-page__footer">
+
+    </div>
+
 </body>
 </html>
