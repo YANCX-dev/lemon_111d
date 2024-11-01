@@ -11,6 +11,7 @@
 <body class="b-page">
 
     <div class="b-page__header">
+        <?php  include './pages/test.php';?>
         <?php  include './pages/header.php';?>
     </div>
 

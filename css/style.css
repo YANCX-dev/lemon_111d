@@ -21,7 +21,6 @@
     width: 100%;
 }
 .b-page__line{
-    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -141,4 +140,62 @@
     font-size: 18px;
     line-height: 32px;
     color: #1C2436;
+}
+.main__image > img{
+    max-width: 1280px;
+    max-height: 820px;
+}
+.main__collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 160px auto;
+    border: 2px solid red;
+    max-width: 1060px;
+    height: 581px;
+}
+
+.collection__text{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.collection__text > p{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+.text__headline{
+    font-family: "Outfit-Regular";
+    font-size: 44px;
+    /*border: 2px solid orange;*/
+}
+.text__description{
+    width: 45%;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    /*border: 2px solid green;*/
+}
+.collection__items{
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid orange;
+}
+
+.collection__card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid coral;
+}
+
+.card__pic{
+
 }
